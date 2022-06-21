@@ -19,14 +19,13 @@ Cdth90plt = Cdsph*K90plt;
 
 
 plt.figure()
- #plt.figure(figsize=(5, 5))
 plt.ylabel(r"Cx")
 plt.xlabel(r"$\lambda$")
 plt.xscale('log')
 plt.yscale('log')
 plt.grid( linestyle='-', which="both",  linewidth=0.5)
 plt.plot(lmbd,Cdth90plt, 'r-', label="ligne -")   
-# plt.plot(0.1,Cd01,marker="x", markersize=5, markerfacecolor="blue")
-# plt.plot(0.05,Cd005,marker="x", markersize=5, markerfacecolor="blue")
-# plt.plot(0.15,Cd015,marker="x", markersize=5, markerfacecolor="blue")
-# plt.plot(0.2,Cd02,marker="x", markersize=5, markerfacecolor="blue")
+plt.plot(0.1,Cd01,marker="x", markersize=5, markerfacecolor="blue")
+plt.plot(0.05,Cd005,marker="x", markersize=5, markerfacecolor="blue")
+plt.plot(0.15,Cd015,marker="x", markersize=5, markerfacecolor="blue")
+plt.plot(0.2,Cd02,marker="x", markersize=5, markerfacecolor="blue")
